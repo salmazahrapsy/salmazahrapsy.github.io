@@ -253,7 +253,7 @@ page("/gmp-2027/", "Global Management Program 2027 — Salma Zahra",
 """
 <article class="prose">
 <h1>Global Management Program 2027 — Salma Zahra</h1>
-<p class="lede">I am applying to the Fast Retailing Global Management Program 2027. This page shows how I am preparing. It is a personal page: the official application is submitted only through Fast Retailing's own portal.</p>
+<p class="lede">I submitted my application to the Fast Retailing Global Management Program 2027 on 19 November 2026. This page shows how I prepared and what I am working on next. It is a personal page: the official application is submitted only through Fast Retailing's own portal.</p>
 
 <h2>Why global business</h2>
 <p>Psychology studies people in general. Business is where insight about people meets real limits: price, time, supply and culture. A global business adds the hardest question: which insights hold across countries and which must change. That is the question I want to work on.</p>
@@ -295,34 +295,26 @@ page("/gmp-2027/", "Global Management Program 2027 — Salma Zahra",
 """)
 
 page("/gmp-2027/timeline/", "GMP 2027 Preparation Timeline — Salma Zahra",
-     "Salma Zahra's preparation timeline for the Fast Retailing Global Management Program 2027, with a countdown to the 28 February 2027 deadline.",
+     "Salma Zahra's preparation timeline for the Fast Retailing Global Management Program 2027, application submitted on 19 November 2026.",
 """
 <article class="prose">
 <h1>Preparation timeline</h1>
-<p class="countdown" id="countdown" aria-live="polite">Application deadline: 28 February 2027, 08:59 Japan time (06:59 Western Indonesia Time).</p>
-<p class="small">The official Fast Retailing application portal is the only way to apply. This page tracks my own preparation.</p>
+<p class="countdown"><strong>Status: application submitted on 19 November 2026.</strong> Next stages, if invited: online assessment, then interviews (expected March 2027).</p>
+<p class="small">The official Fast Retailing application portal is the only way to apply. This page tracks my own preparation; it says nothing about the outcome of the selection.</p>
 <table>
  <thead><tr><th scope="col">When</th><th scope="col">Milestone</th></tr></thead>
  <tbody>
-  <tr><td>Nov–Dec 2026</td><td>Research the programme and company; publish this portfolio</td></tr>
-  <tr><td>Dec 2026</td><td>CV final; first research note from PsyWeb3</td></tr>
-  <tr><td>Dec 2026 – Jan 2027</td><td>Motivation statement drafts and feedback</td></tr>
-  <tr><td>Dec 2026 – Feb 2027</td><td>Online assessment practice</td></tr>
-  <tr><td>Jan – Feb 2027</td><td>Five mock interview rounds</td></tr>
-  <tr><td>26 Feb 2027</td><td>Submit the application (two days early)</td></tr>
-  <tr><td>Mar – May 2027</td><td>Assessment and interviews, if invited</td></tr>
+  <tr><td>Nov 2026</td><td>Researched the programme and company; published this portfolio ✓</td></tr>
+  <tr><td>19 Nov 2026</td><td><strong>Application submitted</strong> through Fast Retailing's official portal ✓</td></tr>
+  <tr><td>Nov 2026 onwards</td><td>Online assessment practice (numerical, verbal, logical)</td></tr>
+  <tr><td>Dec 2026</td><td>First research note from PsyWeb3</td></tr>
+  <tr><td>Jan – Feb 2027</td><td>Mock interview rounds</td></tr>
+  <tr><td>Mar 2027</td><td>Interviews, if invited</td></tr>
+  <tr><td>By 30 May 2027</td><td>Offers announced by Fast Retailing</td></tr>
+  <tr><td>25–30 Jul 2027</td><td>Programme in Tokyo, for selected participants</td></tr>
  </tbody>
 </table>
 </article>
-<script>
-(function(){
-  var el=document.getElementById('countdown'); if(!el) return;
-  var deadline=Date.UTC(2027,1,27,23,59,0); // 08:59 JST = 23:59 UTC on 27 Feb
-  var days=Math.ceil((deadline-Date.now())/86400000);
-  if(days>0){ el.textContent=days+' days to the application deadline: 28 February 2027, 08:59 Japan time (06:59 Western Indonesia Time).'; }
-  else { el.textContent='The GMP 2027 application deadline (28 February 2027, 08:59 Japan time) has passed.'; }
-})();
-</script>
 """)
 
 # ---------- 404
