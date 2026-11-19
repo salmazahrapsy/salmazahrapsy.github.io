@@ -105,7 +105,7 @@ f"""
 
 <h2>In short</h2>
 <dl class="facts">
-  <dt>Study</dt><dd>Undergraduate, Psychology <!-- TODO(Salma): add university name and expected graduation year once confirmed --></dd>
+  <dt>Study</dt><dd>Psychology (S.Psi.), Universitas YARSI, Jakarta — first year</dd>
   <dt>Founder</dt><dd><a href="/psyweb3/">PsyWeb3</a>, a research and education studio on behaviour in online communities</dd>
   <dt>Builds</dt><dd><a href="/psychstats/">PsychStats</a>, an open psychology and statistics knowledge project</dd>
   <dt>Interests</dt><dd>Human behaviour, decision-making, statistics, AI and emerging technology, entrepreneurship, global business</dd>
@@ -259,7 +259,7 @@ page("/gmp-2027/", "Global Management Program 2027 — Salma Zahra",
 <p>Psychology studies people in general. Business is where insight about people meets real limits: price, time, supply and culture. A global business adds the hardest question: which insights hold across countries and which must change. That is the question I want to work on.</p>
 
 <h2>Leadership</h2>
-<p>I founded <a href="/psyweb3/">PsyWeb3</a> and run it in weekly sprints with a written review each week. Leading alone has taught me discipline and honest reviews; it has also shown me what I cannot do without a team, which is why programmes built on multicultural teamwork matter to me.</p>
+<p>I started a voluntary peer tutoring circle for classmates held back by anxiety about English tests, built around small goals and treating mistakes as data. I also founded <a href="/psyweb3/">PsyWeb3</a> and run it in weekly sprints with a written review each week. Leading alone has taught me discipline and honest reviews; it has also shown me what I cannot do without a team, which is why programmes built on multicultural teamwork matter to me.</p>
 
 <h2>Research</h2>
 <p>My work separates evidence from interpretation and hypothesis. See <a href="/research/">Research</a> and <a href="/psychstats/">PsychStats</a>.</p>
