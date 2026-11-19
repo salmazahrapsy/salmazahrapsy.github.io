@@ -299,7 +299,7 @@ page("/gmp-2027/timeline/", "GMP 2027 Preparation Timeline — Salma Zahra",
 """
 <article class="prose">
 <h1>Preparation timeline</h1>
-<p class="countdown" id="countdown" aria-live="polite">Application deadline: 28 February 2027, 09:00 Japan time (07:00 Western Indonesia Time).</p>
+<p class="countdown" id="countdown" aria-live="polite">Application deadline: 28 February 2027, 08:59 Japan time (06:59 Western Indonesia Time).</p>
 <p class="small">The official Fast Retailing application portal is the only way to apply. This page tracks my own preparation.</p>
 <table>
  <thead><tr><th scope="col">When</th><th scope="col">Milestone</th></tr></thead>
@@ -317,10 +317,10 @@ page("/gmp-2027/timeline/", "GMP 2027 Preparation Timeline — Salma Zahra",
 <script>
 (function(){
   var el=document.getElementById('countdown'); if(!el) return;
-  var deadline=Date.UTC(2027,1,28,0,0,0); // 09:00 JST = 00:00 UTC
+  var deadline=Date.UTC(2027,1,27,23,59,0); // 08:59 JST = 23:59 UTC on 27 Feb
   var days=Math.ceil((deadline-Date.now())/86400000);
-  if(days>0){ el.textContent=days+' days to the application deadline: 28 February 2027, 09:00 Japan time (07:00 Western Indonesia Time).'; }
-  else { el.textContent='The GMP 2027 application deadline (28 February 2027, 09:00 Japan time) has passed.'; }
+  if(days>0){ el.textContent=days+' days to the application deadline: 28 February 2027, 08:59 Japan time (06:59 Western Indonesia Time).'; }
+  else { el.textContent='The GMP 2027 application deadline (28 February 2027, 08:59 Japan time) has passed.'; }
 })();
 </script>
 """)
